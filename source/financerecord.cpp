@@ -1,4 +1,4 @@
-#include "financerecord.h"
+#include "../headers/financerecord.h"
 
 FinanceRecord:: FinanceRecord(double amount, const QDate& date)
         : amount(amount), date(date) {}

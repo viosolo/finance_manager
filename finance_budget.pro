@@ -1,9 +1,7 @@
 QT       += core gui
 
-
+CONFIG += resources_big c++11
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
-
-CONFIG += c++11
 
 # The following define makes your compiler emit warnings if you use
 # any Qt feature that has been marked deprecated (the exact warnings
@@ -17,42 +15,43 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    doublelinkedlist.cpp \
-    expense.cpp \
-    filemanager.cpp \
-    financemanager.cpp \
-    financeprocessor.cpp \
-    financerecord.cpp \
-    finexception.cpp \
-    income.cpp \
-    main.cpp \
-    mainwindow.cpp \
-    menuform.cpp \
-    recurringexpense.cpp \
-    taxedincome.cpp
+    source/doublelinkedlist.cpp \
+    source/expense.cpp \
+    source/filemanager.cpp \
+    source/financemanager.cpp \
+    source/financeprocessor.cpp \
+    source/financerecord.cpp \
+    source/finexception.cpp \
+    source/income.cpp \
+    source/main.cpp \
+    source/mainwindow.cpp \
+    source/menuform.cpp \
+    source/recurringexpense.cpp \
+    source/taxedincome.cpp
 
 HEADERS += \
-    AmountException.h \
-    CategoryException.h \
-    FileException.h \
-    IntervalException.h \
-    TaxException.h \
-    doublelinkedlist.h \
-    expense.h \
-    filemanager.h \
-    financeprocessor.h \
-    financerecord.h \
-    finexception.h \
-    income.h \
-    mainwindow.h \
-    menuform.h \
-    recurringexpense.h \
-    taxedincome.h
+    headers/AmountException.h \
+    headers/CategoryException.h \
+    headers/FileException.h \
+    headers/IntervalException.h \
+    headers/TaxException.h \
+    headers/doublelinkedlist.h \
+    headers/expense.h \
+    headers/filemanager.h \
+    headers/financeprocessor.h \
+    headers/financerecord.h \
+    headers/finexception.h \
+    headers/income.h \
+    headers/mainwindow.h \
+    headers/menuform.h \
+    headers/recurringexpense.h \
+    headers/taxedincome.h
 
 FORMS += \
-    mainwindow.ui \
-    menuform.ui
-
+    ui/mainwindow.ui \
+    ui/menuform.ui
+RESOURCES +=  \
+    resourses.qrc
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin

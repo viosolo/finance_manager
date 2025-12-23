@@ -1,4 +1,4 @@
-#include "taxedincome.h"
+#include "../headers/taxedincome.h"
 #include <QDebug>
 #include <QRegularExpression>
 #include <QRegularExpressionMatch>

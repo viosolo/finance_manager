@@ -5,7 +5,7 @@
 #include "expense.h"
 #include "income.h"
 #include <QDebug>
-#include <recurringexpense.h>
+#include "recurringexpense.h"
 class FinanceProcessor {
 private:
     DoubleLinkedList<FinanceRecord*>* allRecords;

@@ -87,9 +87,9 @@ QPushButton:pressed {
        <string/>
       </property>
       <property name="icon">
-       <iconset>
-        <normaloff>../Sidebar/icon/rrrr2.png</normaloff>
-        <normalon>../Sidebar/icon/rrrr2.png</normalon>../Sidebar/icon/rrrr2.png</iconset>
+       <iconset resource="../resourses.qrc">
+        <normaloff>:/new/prefix1/icon/menu.png</normaloff>
+        <normalon>:/new/prefix1/icon/menu.png</normalon>:/new/prefix1/icon/menu.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -129,7 +129,7 @@ QPushButton:pressed {
 }</string>
       </property>
       <property name="currentIndex">
-       <number>9</number>
+       <number>3</number>
       </property>
       <widget class="QWidget" name="homePage">
        <widget class="QLabel" name="label_28">
@@ -1901,8 +1901,9 @@ QPushButton:pressed {
          <string/>
         </property>
         <property name="icon">
-         <iconset>
-          <normaloff>../Sidebar/icon/plus.png</normaloff>../Sidebar/icon/plus.png</iconset>
+         <iconset resource="../resourses.qrc">
+          <normaloff>:/new/prefix1/icon/plus.png</normaloff>
+          <normalon>:/new/prefix1/icon/plus.png</normalon>:/new/prefix1/icon/plus.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -3483,8 +3484,9 @@ QPushButton:pressed {
             <string/>
            </property>
            <property name="icon">
-            <iconset>
-             <normaloff>../Sidebar/icon/plus.png</normaloff>../Sidebar/icon/plus.png</iconset>
+            <iconset resource="../resourses.qrc">
+             <normaloff>:/new/prefix1/icon/plus.png</normaloff>
+             <normalon>:/new/prefix1/icon/plus.png</normalon>:/new/prefix1/icon/plus.png</iconset>
            </property>
            <property name="iconSize">
             <size>
@@ -3798,7 +3800,8 @@ QPushButton:pressed {
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../Sidebar/icon/empty.png</normaloff>../Sidebar/icon/empty.png</iconset>
+          <normaloff>../icon/empty.png</normaloff>
+          <normalon>../icon/empty.png</normalon>../icon/empty.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -4016,8 +4019,9 @@ QPushButton:pressed {
             <string/>
            </property>
            <property name="icon">
-            <iconset>
-             <normaloff>../Sidebar/icon/delete.png</normaloff>../Sidebar/icon/delete.png</iconset>
+            <iconset resource="../resourses.qrc">
+             <normaloff>:/new/prefix1/icon/delete.png</normaloff>
+             <normalon>:/new/prefix1/icon/delete.png</normalon>:/new/prefix1/icon/delete.png</iconset>
            </property>
            <property name="iconSize">
             <size>
@@ -4151,8 +4155,9 @@ QPushButton:pressed {
             <string/>
            </property>
            <property name="icon">
-            <iconset>
-             <normaloff>../Sidebar/icon/delete.png</normaloff>../Sidebar/icon/delete.png</iconset>
+            <iconset resource="../resourses.qrc">
+             <normaloff>:/new/prefix1/icon/delete.png</normaloff>
+             <normalon>:/new/prefix1/icon/delete.png</normalon>:/new/prefix1/icon/delete.png</iconset>
            </property>
            <property name="iconSize">
             <size>
@@ -4294,7 +4299,8 @@ QListWidget::item:selected {
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../Sidebar/icon/empty.png</normaloff>../Sidebar/icon/empty.png</iconset>
+          <normaloff>../icon/empty.png</normaloff>
+          <normalon>../icon/empty.png</normalon>../icon/empty.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -4544,7 +4550,7 @@ QPushButton:pressed {
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>C:/Users/user/Downloads/Copilot_20251029_124020.png</pixmap>
+       <pixmap resource="../resourses.qrc">:/new/prefix1/icon/icon.png</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -4584,9 +4590,9 @@ QPushButton:pressed {
        <string/>
       </property>
       <property name="icon">
-       <iconset>
-        <normaloff>../Sidebar/icon/xit.png</normaloff>
-        <normalon>../Sidebar/icon/xit.png</normalon>../Sidebar/icon/xit.png</iconset>
+       <iconset resource="../resourses.qrc">
+        <normaloff>:/new/prefix1/icon/exit.png</normaloff>
+        <normalon>../icon/exit.png</normalon>:/new/prefix1/icon/exit.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -4636,9 +4642,9 @@ QPushButton:pressed {
           <string/>
          </property>
          <property name="icon">
-          <iconset>
-           <normaloff>../Sidebar/icon/BCO.fccd8e22-a19a-4527-b0a1-8de69aedf178.png</normaloff>
-           <normalon>../Sidebar/icon/BCO.fccd8e22-a19a-4527-b0a1-8de69aedf178.png</normalon>../Sidebar/icon/BCO.fccd8e22-a19a-4527-b0a1-8de69aedf178.png</iconset>
+          <iconset resource="../resourses.qrc">
+           <normaloff>:/new/prefix1/icon/analytics.png</normaloff>
+           <normalon>:/new/prefix1/icon/analytics.png</normalon>:/new/prefix1/icon/analytics.png</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -4682,9 +4688,9 @@ QPushButton:pressed {
           <string/>
          </property>
          <property name="icon">
-          <iconset>
-           <normaloff>../Sidebar/icon/Copilot_20251125_103337.png</normaloff>
-           <normalon>../Sidebar/icon/Copilot_20251125_103337.png</normalon>../Sidebar/icon/Copilot_20251125_103337.png</iconset>
+          <iconset resource="../resourses.qrc">
+           <normaloff>:/new/prefix1/icon/expense.png</normaloff>
+           <normalon>:/new/prefix1/icon/expense.png</normalon>:/new/prefix1/icon/expense.png</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -4728,9 +4734,9 @@ QPushButton:pressed {
           <string/>
          </property>
          <property name="icon">
-          <iconset>
-           <normaloff>../Sidebar/icon/BCO.3e3b4a39-28f1-4ae7-b335-0f8b6b6fbd19.png</normaloff>
-           <normalon>../Sidebar/icon/BCO.3e3b4a39-28f1-4ae7-b335-0f8b6b6fbd19.png</normalon>../Sidebar/icon/BCO.3e3b4a39-28f1-4ae7-b335-0f8b6b6fbd19.png</iconset>
+          <iconset resource="../resourses.qrc">
+           <normaloff>:/new/prefix1/icon/income.png</normaloff>
+           <normalon>:/new/prefix1/icon/income.png</normalon>:/new/prefix1/icon/income.png</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -4774,9 +4780,9 @@ QPushButton:pressed {
           <string/>
          </property>
          <property name="icon">
-          <iconset>
-           <normaloff>../Sidebar/icon/BCO.5539b1fd-3763-4829-b062-e4349b7d64ac.png</normaloff>
-           <normalon>../Sidebar/icon/BCO.5539b1fd-3763-4829-b062-e4349b7d64ac.png</normalon>../Sidebar/icon/BCO.5539b1fd-3763-4829-b062-e4349b7d64ac.png</iconset>
+          <iconset resource="../resourses.qrc">
+           <normaloff>:/new/prefix1/icon/home.png</normaloff>
+           <normalon>../icon/home.png</normalon>:/new/prefix1/icon/home.png</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -4826,7 +4832,7 @@ QPushButton:pressed {
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>C:/Users/user/Downloads/Copilot_20251029_124020.png</pixmap>
+       <pixmap resource="../resourses.qrc">:/new/prefix1/icon/icon.png</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -4901,8 +4907,8 @@ QPushButton:pressed {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../Sidebar/icon/xit.png</normaloff>
-        <normalon>../Sidebar/icon/xit.png</normalon>../Sidebar/icon/xit.png</iconset>
+        <normaloff>../icon/exit.png</normaloff>
+        <normalon>:/new/prefix1/icon/exit.png</normalon>../icon/exit.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -4963,9 +4969,9 @@ QPushButton:pressed {
           <string>Expense</string>
          </property>
          <property name="icon">
-          <iconset>
-           <normaloff>../Sidebar/icon/Copilot_20251125_103337.png</normaloff>
-           <normalon>../Sidebar/icon/Copilot_20251125_103337.png</normalon>../Sidebar/icon/Copilot_20251125_103337.png</iconset>
+          <iconset resource="../resourses.qrc">
+           <normaloff>:/new/prefix1/icon/expense.png</normaloff>
+           <normalon>:/new/prefix1/icon/expense.png</normalon>:/new/prefix1/icon/expense.png</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -5017,9 +5023,9 @@ QPushButton:pressed {
           <string>Analytics</string>
          </property>
          <property name="icon">
-          <iconset>
-           <normaloff>../Sidebar/icon/BCO.fccd8e22-a19a-4527-b0a1-8de69aedf178.png</normaloff>
-           <normalon>../Sidebar/icon/BCO.fccd8e22-a19a-4527-b0a1-8de69aedf178.png</normalon>../Sidebar/icon/BCO.fccd8e22-a19a-4527-b0a1-8de69aedf178.png</iconset>
+          <iconset resource="../resourses.qrc">
+           <normaloff>:/new/prefix1/icon/analytics.png</normaloff>
+           <normalon>:/new/prefix1/icon/analytics.png</normalon>:/new/prefix1/icon/analytics.png</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -5071,9 +5077,9 @@ QPushButton:pressed {
           <string>Income</string>
          </property>
          <property name="icon">
-          <iconset>
-           <normaloff>../Sidebar/icon/BCO.3e3b4a39-28f1-4ae7-b335-0f8b6b6fbd19.png</normaloff>
-           <normalon>../Sidebar/icon/BCO.3e3b4a39-28f1-4ae7-b335-0f8b6b6fbd19.png</normalon>../Sidebar/icon/BCO.3e3b4a39-28f1-4ae7-b335-0f8b6b6fbd19.png</iconset>
+          <iconset resource="../resourses.qrc">
+           <normaloff>:/new/prefix1/icon/income.png</normaloff>
+           <normalon>:/new/prefix1/icon/income.png</normalon>:/new/prefix1/icon/income.png</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -5125,9 +5131,8 @@ QPushButton:pressed {
           <string>Personal</string>
          </property>
          <property name="icon">
-          <iconset>
-           <normaloff>../Sidebar/icon/BCO.5539b1fd-3763-4829-b062-e4349b7d64ac.png</normaloff>
-           <normalon>../Sidebar/icon/BCO.5539b1fd-3763-4829-b062-e4349b7d64ac.png</normalon>../Sidebar/icon/BCO.5539b1fd-3763-4829-b062-e4349b7d64ac.png</iconset>
+          <iconset resource="../resourses.qrc">
+           <normaloff>:/new/prefix1/icon/home.png</normaloff>:/new/prefix1/icon/home.png</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -5171,7 +5176,9 @@ QPushButton:pressed {
    <layout class="QVBoxLayout" name="verticalLayout_2"/>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="../resourses.qrc"/>
+ </resources>
  <connections>
   <connection>
    <sender>homeButton</sender>

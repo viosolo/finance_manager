@@ -1,4 +1,4 @@
-#include "recurringexpense.h"
+#include "../headers/recurringexpense.h"
 
 RecurringExpense::RecurringExpense(double amount, const QDate& date, ExpenseCategory category, int recurrenceDays)
     : Expense(amount, date, category), recurrenceDays(recurrenceDays) {}

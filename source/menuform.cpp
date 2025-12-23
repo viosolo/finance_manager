@@ -1,4 +1,4 @@
-#include "menuform.h"
+#include "../headers/menuform.h"
 #include "ui_menuform.h"
 #include <QCloseEvent>
 #include <QMessageBox>
@@ -6,8 +6,8 @@
 #include <QLabel>
 #include <QListWidget>
 #include <QListWidgetItem>
-
-
+#include <QDir>
+#include <QCoreApplication>
 MenuForm::MenuForm(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::MenuForm)
@@ -24,10 +24,8 @@ MenuForm::MenuForm(QWidget *parent) :
     ui->widget_2->hide();
     setupSpinBoxes();
 
-    fileManager = new FileManager(
-        "E:/budgetFinance/finance_budget/income.txt",
-        "E:/budgetFinance/finance_budget/expenses.txt"
-    );
+
+    fileManager = new FileManager("data/income.txt", "data/expenses.txt");
      processor = new FinanceProcessor();
     loadData();
     updateBalance();

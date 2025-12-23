@@ -1,4 +1,4 @@
-#include "income.h"
+#include "../headers/income.h"
 
 
 Income::Income(double amount, const QDate& date, IncomeCategory category)

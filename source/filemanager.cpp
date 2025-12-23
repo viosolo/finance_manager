@@ -1,6 +1,6 @@
-#include "filemanager.h"
+#include "../headers/filemanager.h"
 #include <QRegularExpression>
-#include "recurringexpense.h"
+#include "../headers/recurringexpense.h"
 #include <QFile>
 
 

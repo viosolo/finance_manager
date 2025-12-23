@@ -1,5 +1,4 @@
-
-#include "expense.h"
+#include "../headers/expense.h"
 
 
 Expense::Expense(double amount, const QDate& date, ExpenseCategory category)

@@ -1,6 +1,6 @@
-#include "financemanager.h"
 
-#include "recurringexpense.h"
+#include "../headers/financemanager.h"
+#include "../headers/recurringexpense.h"
 #include <QFile>
 #include <QTextStream>
 #include <QStringList>

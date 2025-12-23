@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>icon/analytics.png</file>
+        <file>icon/delete.png</file>
+        <file>icon/empty.png</file>
+        <file>icon/exit.png</file>
+        <file>icon/expense.png</file>
+        <file>icon/home.png</file>
+        <file>icon/icon.png</file>
+        <file>icon/income.png</file>
+        <file>icon/incomes.png</file>
+        <file>icon/menu.png</file>
+        <file>icon/plus.png</file>
+    </qresource>
+</RCC>

@@ -1,4 +1,4 @@
-#include "finexception.h"
+#include "../headers/finexception.h"
 
 
 QString FinException::getMessage() const

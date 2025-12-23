@@ -1,4 +1,4 @@
-#include "financeprocessor.h"
+#include "../headers/financeprocessor.h"
 #include <QDebug>
 
 void FinanceProcessor::deleteExpense(DoubleLinkedList<FinanceRecord*>& list, FinanceRecord* value) {
