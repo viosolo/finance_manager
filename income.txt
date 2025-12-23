@@ -1,0 +1,13 @@
+25.11.2025 333 Rental ID:4a80beef-cdbc-4167-8c6c-645debfa4977 Taxed 5
+26.11.2025 4 Gift ID:a2dbe398-22c9-45c2-b714-c08f7fce11ed
+26.11.2025 4 Freelance ID:d15aaa9d-ebb2-4bb5-9649-a3572e71ceed
+26.11.2025 4 Salary ID:9b595be5-991b-4194-b747-4e315f773a87
+28.11.2025 12 Freelance ID:c46f8e38-a11c-48ca-89d7-edab59670d19
+28.11.2025 133 Gift ID:43808edb-c536-4bc6-b9ae-ccaabe9f9f0f
+28.11.2025 13 Rental ID:ca14be6e-4cb4-4b35-bb7b-3fc0487cb202 Taxed 3
+01.12.2025 3 Salary ID:771067a2-e3c1-4a6b-b4cd-aac38f2e1d13
+01.12.2025 144 Gift ID:ba5873de-cea5-4f76-bd8a-7446fb9f5441 Taxed 5
+01.12.2025 20 Rental ID:395b4eea-8436-44ca-85ce-e5e7204afa42
+01.12.2025 12 Other ID:95c08afa-78dc-475c-a31d-ee26656ef2a1
+03.11.2025 1330 Freelance ID:5da0986e-661b-47fc-87e0-988460e19b71
+09.12.2025 66 Salary ID:a12dface-ef45-48db-8f5c-c71712125f52 Taxed 3
