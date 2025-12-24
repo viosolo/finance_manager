@@ -40,7 +40,7 @@ The application provides advanced data manipulation capabilities:
 ![Category Filter](interface/view.png)
 *Detailed list of expenses grouped by defined categories.*
 ![Category Filter](interface/view_empty.png)
-*Nothing to view in the category.*
+*Nothing to view from incomes in the category.*
 ![Category Filter](interface/view_expenses.png)
 *Detailed list of expenses grouped by one chosen category.*
 
@@ -66,7 +66,7 @@ The application provides advanced data manipulation capabilities:
 *Filtering transaction history by specific date.*
 ### 7. Financial Highs & Lows
 ![Statistics](interface/search.png)
-*Quick identificationof the largest and the smallest financial records.*
+*Quick identification of the largest and the smallest financial records.*
 
 
 ---
