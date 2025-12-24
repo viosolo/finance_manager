@@ -129,7 +129,7 @@ QPushButton:pressed {
 }</string>
       </property>
       <property name="currentIndex">
-       <number>3</number>
+       <number>10</number>
       </property>
       <widget class="QWidget" name="homePage">
        <widget class="QLabel" name="label_28">
@@ -3799,9 +3799,9 @@ QPushButton:pressed {
          <string/>
         </property>
         <property name="icon">
-         <iconset>
-          <normaloff>../icon/empty.png</normaloff>
-          <normalon>../icon/empty.png</normalon>../icon/empty.png</iconset>
+         <iconset resource="../resourses.qrc">
+          <normaloff>:/new/prefix1/icon/empty.png</normaloff>
+          <normalon>:/new/prefix1/icon/empty.png</normalon>:/new/prefix1/icon/empty.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -4298,9 +4298,9 @@ QListWidget::item:selected {
          <string/>
         </property>
         <property name="icon">
-         <iconset>
-          <normaloff>../icon/empty.png</normaloff>
-          <normalon>../icon/empty.png</normalon>../icon/empty.png</iconset>
+         <iconset resource="../resourses.qrc">
+          <normaloff>:/new/prefix1/icon/empty.png</normaloff>
+          <normalon>:/new/prefix1/icon/empty.png</normalon>:/new/prefix1/icon/empty.png</iconset>
         </property>
         <property name="iconSize">
          <size>
